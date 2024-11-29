@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/* This is a divider for my work and reset values*/
+
+
+
+
+
+body{
+    background-color: #111111;
+    margin: 80px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+p{
+    font-family: Poppins, sans-serif;
+   
+
+}
+
+
+.icon1{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+  
+#vertical-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+ 
+   
+}
+
+.icon1:hover{
+    background-color: #ffb400;
+}
+
+
+h1{
+    color: #252525;    
+    font-size: 110px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    letter-spacing: 10px;
+}
+h2{
+    font-size: 56px;
+    text-align: center;
+    position: relative;
+    bottom: 85px;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 850;
+}
+
+.box{
+    background-color: #252525;
+    width: 400px;
+    height: 200px;
+    margin: 0%;
+
+}
+
+.box2{
+    background-color:#ffb400;
+    width: 400px;
+    height: 5px;
+
+}
+
+img {
+    display: block;
+}
+
+
+a{
+    color: white;
+}

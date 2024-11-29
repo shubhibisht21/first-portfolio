@@ -1,0 +1,44 @@
+.background-video{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+
+}
+
+
+/*body{
+    color: aliceblue;
+    
+    background-image: url(jokerx-wallpaper.jpg);
+    background-size: cover;
+     background-repeat: no-repeat; 
+     background-position: center;
+     background-attachment: fixed;
+     
+}*/
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 25px;
+    opacity: 95%;
+}
+/*.content{
+    position: sticky;
+    top: 25px;
+    color: tomato;
+}*/
+
