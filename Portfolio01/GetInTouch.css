@@ -62,22 +62,24 @@ body{
     margin: 80px;
 }
 
-.flex-container{
+.flex-container1{
     display: flex;
     justify-content: space-around;
+   
+
+ 
 }
 
-.flex-container1{
+.flex-container2{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
 
-.flex-container3{
-    display: flex;
-    justify-content: space-evenly;
-}
+
+
+
 
 
 h1{
@@ -108,6 +110,7 @@ p{
     font-size: 15px;
     font-family:Open Sans, sans-serif;
     line-height: 25px;
+
 }
 
 #box1{

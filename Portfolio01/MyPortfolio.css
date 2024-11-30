@@ -105,6 +105,10 @@ th{
 
 }
 
+.change-font:hover{
+    color: #ffb400;
+}
+
 .icon1{
     background-color: rgb(62, 62, 62);
     color: white;
